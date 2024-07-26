@@ -1,5 +1,9 @@
 const express = require("express");
-const socketio = require("socket.io");
+const socketio = require("socket.io")(http, {
+  cors: {
+    origin: "*",
+  },
+});
 
 const app = express();
 app.use(express.static(__dirname + "/public"));
