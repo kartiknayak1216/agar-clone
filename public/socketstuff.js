@@ -38,7 +38,6 @@ socket.on("playerAbsorbed", (absorbData) => {
   document.querySelector("#game-message").style.opacity = 1;
   window.setTimeout(() => {
     document.querySelector("#game-message").style.opacity = 0;
-    window.location.reload();
   }, 2000);
 });
 
