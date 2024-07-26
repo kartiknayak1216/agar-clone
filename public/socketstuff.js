@@ -1,4 +1,4 @@
-const socket = io.connect("http://localhost:8000");
+const socket = io.connect("https://agar-clone-six.vercel.app");
 let orbs = [];
 let player = {}; // Declare player here
 
