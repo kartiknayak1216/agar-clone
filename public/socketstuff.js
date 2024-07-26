@@ -1,6 +1,6 @@
 const socket = io.connect("https://agar-clone-six.vercel.app");
 let orbs = [];
-let player = {}; // Declare player here
+let player = {};
 
 const init = async () => {
   const initData = await socket.emitWithAck("init", {
