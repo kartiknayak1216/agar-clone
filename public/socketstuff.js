@@ -43,7 +43,7 @@ socket.on("playerAbsorbed", (absorbData) => {
 
 socket.on("updateLeaderBoard", (leaderBoardArray) => {
   console.log(leaderBoardArray);
-  // console.log(leaderBoardArraydfg)
+  // console.log()
   leaderBoardArray.sort((a, b) => {
     return b.score - a.score;
   });
