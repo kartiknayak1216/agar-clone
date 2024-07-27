@@ -1,4 +1,4 @@
-const socket = io.connect("https://agar-clone-six.vercel.app");
+const socket = io.connect("https://agar-clone-u4zv.onrender.com");
 let orbs = [];
 let player = {};
 
