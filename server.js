@@ -11,7 +11,7 @@ const server = http.createServer(app);
 // Initialize socket.io with CORS options
 const io = socketio(server, {
   cors: {
-    origin: "*",
+    origin: "https://agar-clone-six.vercel.app",
   },
 });
 
